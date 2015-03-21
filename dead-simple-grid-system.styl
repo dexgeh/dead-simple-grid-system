@@ -1,0 +1,26 @@
+.row
+  width 100%
+  margin 0 auto
+  display block
+  margin 0
+  padding 0
+  clear both
+
+  &.sep
+    height 1px
+
+  for n in (1..12)
+    > .col-{n}
+      width ((100/12)*n)%
+
+  > [class^='col-']
+    margin 0
+    padding 0
+    float left
+
+  > [class='^col-']:last-child
+    float right
+
+  > [class='^col-']:first-child
+    float left
+

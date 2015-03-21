@@ -1,0 +1,9 @@
+{
+  "name": "dead-simple-grid-system",
+  "dependencies": {
+    "stylus": "*"
+  },
+  "scripts" : {
+    "build" : "node_modules/stylus/bin/stylus *.styl"
+  }
+}
