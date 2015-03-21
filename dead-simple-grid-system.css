@@ -50,9 +50,9 @@
   padding: 0;
   float: left;
 }
-.row > [class='^col-']:last-child {
+.row > [class^='col-']:last-child {
   float: right;
 }
-.row > [class='^col-']:first-child {
+.row > [class^='col-']:first-child {
   float: left;
 }
